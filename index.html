@@ -1,65 +1,53 @@
 <!DOCTYPE HTML>
 <html>
-
 <head>
-  <title>When I'm 64 By a.j.jr</title>
-  <meta name="description" content="website description" />
-  <meta name="keywords" content="website keywords, website keywords" />
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
-  <!-- modernizr enables HTML5 elements and feature detects -->
-  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+<link href="Content/css/bootstrap.min.css " rel="stylesheet">
+<link href="Content/css/custom-styles.css" rel="stylesheet">
+<script type="text/javascript" src="Content/js/jquery.min.js"></script>
 </head>
-
 <body>
-  <div id="main">
-    <header>
-      <div id="logo">
-        <div id="logo_text">
-          <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="index.html"><span class="logo_colour">When I'm 64 by a.j.jr</span></a></h1>
-          <!--<h2>A humorous look at how the boomer generation made it through the 60s.</h2>-->
-        </div>
-      </div>
-      <nav>
-        <div id="menu_container">
-          <ul class="sf-menu" id="nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About the Author</a></li>
-            <li><a href="about_book.html">About the Book</a></li>
-            <li><a href="order.html">Get Your Copy!</a></li>
-            <li><a href="contactus.html">Contact Us</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <div id="site_content">
-      <div id="sidebar_container">
-        <div class="sidebar">
-          <img src="images/book.jpg" alt="some_text" width=250px height=250px>
-        </div>
-      </div>
-      <div class="content">
-        <h1>A humorous look at how the boomer generation made it through the 60s.</h1>
-      <p>"Once upon a time, you dressed so fine; you threw the bums a dime, didn't you?" O, the times, they are a changin'. There must be 82 million of you out there we could close the New York State Freeway again if we wanted! Baby boomers has reached middle age and beyond. Take a look back at how we were going to change the world: or, how the world around us has changed. Whatever happened to those paisley bell bottoms you had? Did anyone write better poetry than Dylan or the artists of motown? How has fast food become the restaurant of choice? </p>  
-        
-      </div>
-    </div>
-    <footer>
-      <p>Copyright &copy; <a href="http://mattdisipio.com">DiSipio Website Design</a></p>
-      <p>TEST 2</p>
-      
-    </footer>
-  </div>
-  <p>&nbsp;</p>
-  <!-- javascript at the bottom for fast page loading -->
-  <script type="text/javascript" src="js/jquery.js"></script>
-  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
-  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('ul.sf-menu').sooperfish();
-    });
-  </script>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">a.j.jr <small>author</small></a>
+	    </div>
+		<div id="navbar" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="About/">About</a></li>
+				<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Books <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				<li><a href="Books/When I'm 64/">when i'm 64</a></li>
+				<li><a href="Books/The Corner/">the corner</a></li>          
+				 </ul>
+				</li>			            
+			</ul>	     
+		</div>
+	  </div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="panel main-panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title">a.j.jr</h3>
+				</div>
+			<div class="panel-body">
+			  <img class="img-responsive img-wrap" style="max-height:300px" src="Content/images/chucks.jpg">
+				<em>"Once upon a time, you dressed so fine; you threw the bums a dime, didn't you?"</em><br/><br/>
+				 <em>"O, the times, they are a changin'."</em> <br/><br/>There must be 82 million of you out there we could close the New York State Freeway again if we wanted! Baby Boomers have reached middle age and beyond. Take a look back at how we were going to change the world: or, how the world around us has changed. Whatever happened to those paisley bell bottoms you had? Did anyone write better poetry than Dylan or the artists of Motown? How has fast food become the restaurant of choice?
+			</div>
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="Content/js/bootstrap.min.js"></script>
 </body>
 </html>
+
