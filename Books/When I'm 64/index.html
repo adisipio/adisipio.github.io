@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link href="../../Content/css/bootstrap.min.css " rel="stylesheet">
+<link href="../../Content/css/custom-styles.css" rel="stylesheet">
+<script type="text/javascript" src="../../Content/js/jquery.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="../../">a.j.jr <small>author</small></a>
+	    </div>
+		<div id="navbar" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="../../">Home</a></li>
+				<li><a href="../../About/">About</a></li>
+				<li class="dropdown active">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Books <span class="caret"></span><small class="pad-left">when i'm 64</small></a>
+				<ul class="dropdown-menu">
+				<li><a href="#">when i'm 64</a></li>
+				<li><a href="../The Corner/">the corner</a></li>          
+				 </ul>
+				</li>			            
+			</ul>	     
+		</div>
+	  </div>
+	</nav>
+	<div class="container">
+	<div class="row">
+		<div class="panel book-panel panel-default">
+			<div class="panel-heading">
+				<h3>when i'm 64 by a.j.jr</h3>
+				<span class="sub-head">A humorous look at how the boomer generation made it through the 60s.</span>
+			</div>
+		<div class="panel-body">
+		<img class="img-wrap img-responsive" style="max-height: 300px;" src="../../Content/images/book.jpg">
+
+			No matter where you grew up or spent your formative years in the 60s and 70s, this book is bound to get you remembering what made us so special. Why do you think the TV networks are scheduling "look back" program. Heck, even the Rolling Stones are still touring! <br/><br/>
+
+Put on your hip hugger jeans, tie-dyed shirt and John Lennon shades. Better yet, put the "album" soundtrack from Saturday Night Fever on your stereo and get out your disco shoes. Take a break from the new millennium. Look back at what we've been through. You can even inhale. What a long, strange trip it's been!
+		</div>
+		<div class="panel-footer">
+		<span>Get your copy today!</span>
+		<form action="https://guarded-tundra-1002.herokuapp.com/charge" method="POST">
+    <script
+        src="https://checkout.stripe.com/checkout.js"
+        class="stripe-button"
+        data-shipping-address="true"
+        data-key="pk_live_zpYqwRv6rGPgb8I2boFOr7Qy"
+        data-name="When I'm 64 by a.j.jr"
+        data-amount="1500"
+    ></script>
+    <input name="amount" value="1500" type="hidden">
+    <input name="description" value="For when i'm by a.j.jr" type="hidden">
+    <input name="metadata" value="Test" type="hidden">
+</form></div>
+		
+	</div>
+
+	</div>
+	
+<script src="../../Content/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
